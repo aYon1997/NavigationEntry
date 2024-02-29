@@ -1,0 +1,9 @@
+# 忽略 node_modules 文件
+node_modules
+
+# 仅在当前目录下忽略 dist文件
+/docs/.vitepress/dist
+
+.DS_Store
+
+.vscode

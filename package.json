@@ -1,0 +1,20 @@
+{
+  "name": "starter",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.64",
+    "archiver": "^5.3.1",
+    "node-ssh": "^13.1.0"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs --port 8080",
+    "add-build": "rm -rf ./assets ./images ./page ./404.html ./hashmap.json ./index.html && vitepress build docs && mv ./docs/.vitepress/dist/* ./",
+    "deploy:upload": "node node-tools/deploy.ts upload",
+    "deploy:revert": "node node-tools/deploy.ts revert"
+  }
+}
