@@ -4,7 +4,7 @@
             <li v-for="(item, index) in cardList" :key="index">
                 <div class="card" @click="handleClick(item.url)">
                     <div class="card-image">
-                        <img :src="item.imageSrc" />
+                        <img :src="item.imageSrc" alt="cdn-error" />
                     </div>
                     <div class="card-content">
                         <h2>{{ item.title }}</h2>

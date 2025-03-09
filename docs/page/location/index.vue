@@ -17,12 +17,12 @@ export default defineComponent({
 
             // TODO
             // let isGo = new URL(location.search).searchParams.get('source');
-            // let url = sessionStorage.getItem("localPath") || "/notes/page/frame/?type=0";;
+            // let url = sessionStorage.getItem("localPath") || "/NavigationEntry/page/frame/?type=0";;
 
             // if (!isGo) {
-            //     url = "/notes/";
+            //     url = "/NavigationEntry/";
             // }
-            let url = sessionStorage.getItem("localPath") || "/notes/page/frame/?type=0";
+            let url = sessionStorage.getItem("localPath") || "/NavigationEntry/page/frame/?type=0";
 
             if (typeof window === 'undefined') {
                 return;
