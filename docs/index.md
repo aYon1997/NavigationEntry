@@ -5,8 +5,8 @@ title: BASIC
 titleTemplate: NETBOOK
 
 hero:
-  name: LET 
-  text: IDEAS FLY    
+  name: LET
+  text: IDEAS FLY
   tagline: WORKDTYLE
   actions:
     - theme: brand
@@ -53,7 +53,3 @@ features:
 ---
 
 <Home />
-
-<script setup>
-import Home from './index.vue';
-</script>

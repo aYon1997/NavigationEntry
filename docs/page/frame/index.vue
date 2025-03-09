@@ -1,5 +1,7 @@
 <template>
-    <card-list :card-list="list" />
+    <div>
+        <card-list :card-list="list" />
+    </div>
 </template>
 
 <script>

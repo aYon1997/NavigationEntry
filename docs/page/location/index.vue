@@ -1,3 +1,7 @@
+<template>
+    <div></div>
+</template>
+
 <script>
 /**
   * @file: md链接跳转中转站
